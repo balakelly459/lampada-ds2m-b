@@ -32,10 +32,14 @@ button{
     width: 100px;
     height: 40px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 footer{
     height: 50px;
     justify-content: center;
     align-items: flex-start;
+}
+#piscar{
+    background-color:#43a047;
 }

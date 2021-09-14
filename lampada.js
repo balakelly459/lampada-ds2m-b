@@ -56,9 +56,11 @@ function piscar(){
     if (piscar.textContent == "Piscar"){
         idInterval = setInterval(trocarImagem, 1000)
         piscar.textContent = "Parar"
+        document.getElementById("piscar").style.background="#dd2c00"
     }else{
         clearInterval(idInterval)
         piscar.textContent = "Piscar"
+        document.getElementById("piscar").style.background="#43a047"
     }
 }
  
